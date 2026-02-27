@@ -1,0 +1,16 @@
+Logic in English
+WAF - integer array, target sum
+
+#1 We need read one number at a time
+#2 We need to substract that number from target sum and get difference
+#3 now we need to check if there is any number in the given numbers which is equal to this difference, it is better to ignore the same number i.e, we should sum 10, means 5+5=10
+    is not accepted
+    Find if there are two numbers
+    Hence i should make sure to ignore the same number
+    - like this after comparing with all numbers
+    - if we don't find the number equal to difference
+    - Then i should move on to the next number
+    - and repeat the same process again
+    - lets say we don't find any such two numbers
+    - then at the end of the function
+      Print that we son't have such numbers in the input
