@@ -1,0 +1,10 @@
+#1 Take a array of elements
+#2 Find Length() of array
+#3 Traverse the Array ---> using for Loop (outer loop) which is 'i' in the code
+#4 compare the adjacent elements ------> using for loop (inner loop) which is 'j' in the code
+#5 comparison using if (condition)
+                       (1st > 2nd) element
+                       (2nd > 3rd) element
+                       so on
+#6 Swap current element and next element if the current element is greater
+#7 Print the sorted array elements
