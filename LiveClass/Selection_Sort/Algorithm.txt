@@ -1,0 +1,19 @@
+Alogorithm for Selection Sort
+<---------------------------->
+#1. Take a list/array
+#2. Find size
+#3. Iterate through each element (take i loop ----> outter loop)
+    set ---> 
+        min_value = array[0]
+        min_index = 0
+#4. Comparing min_value with next we need 2nd loop that start's from 1st index (i+1) and goes till end
+#5. Check ----->  
+                if(min_value > array[j])
+                    min_value = number[j];
+                    min_index = j;
+#6. out from j loop
+#7. Swap
+        temp = array[i]
+        array[i] = array[max_index]
+        array[max_index] = temp
+#8. Print the sorted array

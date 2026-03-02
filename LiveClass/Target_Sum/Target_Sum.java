@@ -12,6 +12,7 @@ public class Target_Sum {
                 if (difference == array[j])
                 {
                     System.out.println("The two numbers are : "+ array[i] +" "+ array[j]);
+                    return;
                 }
             }
         }
