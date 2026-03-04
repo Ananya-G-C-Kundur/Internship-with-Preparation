@@ -1,0 +1,11 @@
+Insertion Sort
+
+#1 Take an array as a input
+#2 find size
+#3 Take a loop to read elements start from 1st index (i=1) and stop at i<size
+#4 Once you read the first element store it in "temp"
+#5 Run another loop for comparision as we are comparing with previous element start loop from j=i-1 and stop at j>=0
+#6 if condition compare (array[j] > temp)
+                array[j+1] = array[j]
+                array[j] = temp
+   else condition ---> break 

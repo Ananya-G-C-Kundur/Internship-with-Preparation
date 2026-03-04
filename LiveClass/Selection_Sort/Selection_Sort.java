@@ -19,12 +19,12 @@ public class Selection_Sort{
         }
         for (int i=0; i<array.length; i++)
         {
-            System.out.print(+array[i] +" ");
+            System.out.print(array[i] +" ");
         }
         System.out.println();
     }
     public static void main(String[] args) {
-        int[] array = {9,2,6,16,13};
+        int[] array = {9,6,2,16,13};
         SelectionSort(array);
     }
 }
